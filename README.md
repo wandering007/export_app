@@ -1,4 +1,4 @@
-#A Shiny app visualizing the export status of cultural publication of China from 2008 to 2014.
+A Shiny app visualizing the export status of cultural publication of China from 2008 to 2014.
 
 Ways to use the app:
 --------------------
