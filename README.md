@@ -1,7 +1,6 @@
 A Shiny app visualizing the export status of cultural publication of China from 2008 to 2014.
 
-Ways to use the app:
---------------------
+##Ways to use the app:
 
 1. Download the repository to local. Launch the app in R with the following commands:
 
