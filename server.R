@@ -39,7 +39,7 @@ shinyServer( function(input, output) {
       pos = "dodge"
     else pos = "stack"
     ggplot( data0, aes(x = date, y = value, fill = group) ) +
-      labs(title = "A Generous Look At Culture Development As A Whole", x = NULL, y = NULL, fill = NULL) + 
+      labs(title = "A Generous Look At Culture Development As A Whole", x = "year", y = input$Type, fill = NULL) + 
       geom_bar(stat = "identity", position = pos) +
       scale_fill_manual(values = color)
   })
